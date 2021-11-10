@@ -1,0 +1,140 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden !important; */
+}
+
+body, html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #f2f3f7;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
+
+nav{
+  background-color: #75a14c;
+}
+
+
+#jumbotron{
+  padding-top: 3.5rem;
+  margin-left: 2em;
+}
+
+
+#conButton{
+  padding: 1rem;
+}
+
+#conButton button{
+  float: left;
+  margin: 0
+}
+
+.container-fluid .lead{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card{
+  width: 330px;
+  height: 420px;
+  padding: 60px 30px;
+  margin: 20px;
+  background: #f2f3f7;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+              -0.6em -0.6em 1em #ffff;
+  border-radius: 20px;
+  border: none;
+}
+
+.container .card .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .card .content .imgBx{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.container .card .content .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content .contentBx h4, h3{
+  color: #36187d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+.container .card .content .contentBx p{
+  color: #6c758f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .card .content .sci{
+  margin: 15px 0 0 0;
+}
+
+.container .card .content .sci a{
+  text-decoration: none;
+  color: #6c758f;
+  font-size: 1em;
+  margin: 10px;
+  transition: all 0.4s ease;
+}
+
+.container .card .content .sci a:hover{
+  color: #ad7432;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500) {
+  .media{
+    opacity: 0;
+  }
+}
+
+
+
+
+
+

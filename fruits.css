@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+.navbar-toggler{
+    margin: 0 1em;
+}
+
+nav{
+    background-color: #75a14c;
+}
+
+i{
+    font-size: 1em;
+    display: flex;
+    margin: auto;
+}
+
+
+#jumbotron{
+    padding-top: 3.5rem;
+}
+
+#conButton{
+    padding: 1rem;
+}
+
+#conButton button{
+    float: left;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    /* margin-bottom: 1rem; */
+    margin: .5em 0;
+}
+
+.inner{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8em;
+}
+
+
+.tagengbtn:active{
+    background-color: #45ae32;
+    border-color: #45ae32;
+}
+
+
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.gotop:hover{
+    color: #434946;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #00c6ff);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .col-sm-6{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col-sm-6{
+        margin-left: .5rem;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./alphabet.css">
+  <link rel="icon" href="./favicon_io/favicon-32x32_A.png">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <title>Alphabet</title>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EQ-Right Brain</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Elective 1</h5>
+          <i class='bx bx-notepad'></i>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Back to home page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html" target="_blank">Read more</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutUs.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Types
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><span>...</span> Alphabet section</li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./color.html">Colors/Kulay</a></li>
+                <li><a class="dropdown-item btn-success" href="./fruits.html">Fruits/Prutas</a></li>
+                <li><a class="dropdown-item" href="./shape.html">Shapes/Hugis</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid" id="jumbotron">
+    <div class="container-fluid">
+      <h1 class="display-4">Alphabet page!</h1>
+      <p class="lead">An alphabet is a standardized set of basic written symbols or graphemes (called letters) that represent the phonemes of certain spoken languages.</p>
+    </div>
+  </div>
+
+
+  <div class="container-room">
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="" onclick="letterA()" class="navitem btn btn-primary" >Aa</button>
+        <button type="" onclick="letterB()" class="navitem btn btn-primary">Bb</button>
+        <button type="" onclick="letterC()" class="navitem btn btn-primary">Cc</button>
+        <button type="" onclick="letterD()" class="navitem btn btn-primary">Dd</button>
+        
+        <!-- <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+        Popover on left
+        </button> --> 
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterE()" class="navitem btn btn-primary">Ee</button>
+        <button type="button" onclick="letterF()" class="navitem btn btn-primary">Ff</button>
+        <button type="button" onclick="letterG()" class="navitem btn btn-primary">Gg</button>
+        <button type="button" onclick="letterH()" class="navitem btn btn-primary">Hh</button>
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterI()" class="navitem btn btn-primary">Ii</button>
+        <button type="button" onclick="letterJ()" class="navitem btn btn-primary">Jj</button>
+        <button type="button" onclick="letterK()" class="navitem btn btn-primary">Kk</button>
+        <button type="button" onclick="letterL()" class="navitem btn btn-primary">Ll</button>
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterM()" class="navitem btn btn-primary">Mm</button>
+        <button type="button" onclick="letterN()" class="navitem btn btn-primary">Nn</button>
+        <button type="button" onclick="letterO()" class="navitem btn btn-primary">Oo</button>
+        <button type="button" onclick="letterP()" class="navitem btn btn-primary">Pp</button>
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterQ()" class="navitem btn btn-primary">Qq</button>
+        <button type="button" onclick="letterR()" class="navitem btn btn-primary">Rr</button>
+        <button type="button" onclick="letterS()" class="navitem btn btn-primary">Ss</button>
+        <button type="button" onclick="letterT()" class="navitem btn btn-primary">Tt</button>
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterU()" class="navitem btn btn-primary">Uu</button>
+        <button type="button" onclick="letterV()" class="navitem btn btn-primary">Vv</button>
+        <button type="button" onclick="letterW()" class="navitem btn btn-primary">Ww</button>
+        <button type="button" onclick="letterX()" class="navitem btn btn-primary">Xx</button>
+      </div>
+    </div>
+  
+    <div class="container relative">
+      <div class="row justify-content-center">
+        <button type="button" onclick="letterY()" class="navitem btn btn-primary">Yy</button>
+        <button type="button" onclick="letterZ()" class="navitem btn btn-primary">Zz</button>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <a href="#" class="gotop"><i class="fas fa-angle-double-up"></i></a>
+
+
+
+  <script src="./alphabet.js"></script>
+  <script src="https://kit.fontawesome.com/68c8a1800b.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
